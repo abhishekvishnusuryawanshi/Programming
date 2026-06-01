@@ -12,9 +12,9 @@ class NumberX
     public boolean CheckPrime(int iNo)
     {
         int iCnt = 0;
-        boolean bFlag = true;
+        boolean bFlag = false;
 
-        for(iCnt = 2; iCnt <= (iNo / 2); iCnt++)
+        for(bFlag = true, iCnt = 2; iCnt <= (iNo / 2); iCnt++)
         {
             if((iNo % iCnt) == 0)
             {
@@ -27,7 +27,7 @@ class NumberX
     }
 }
 
-class program68
+class program4
 {
     public static void main(String A[])
     {
@@ -71,10 +71,4 @@ class program68
 001010001001
 1010110001001
 001010001001
-
-
-
-
-
-
 */
