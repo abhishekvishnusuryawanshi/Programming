@@ -9,7 +9,7 @@ class DigitX
         int iSum = 0;
 
         while(iNo != 0)
-        {
+            {
             iDigit = iNo % 10;
             if(iDigit % 2 == 0)
             {
