@@ -1,3 +1,10 @@
+///////////////////////////////////////////////
+//
+// Program accepts an integer from the user
+// and counts the number of ODD digits
+// present in the given number.
+//
+///////////////////////////////////////////////
 import java.util.*;
 
 class DigitX 
