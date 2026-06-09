@@ -1,4 +1,4 @@
-// Write a program to find the minmum of two numbers.
+// Write a program to find the maximum of two numbers.
 
 class Logic
 {
